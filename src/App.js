@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Anima1 from './components/Anima1'
+import HeadingQueMuda from './components/Heading-que-muda';
 
 function App() {
   return (
     <div className="App">
-      <Anima1 />
+      <HeadingQueMuda />
     </div>
   );
 }
