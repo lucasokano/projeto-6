@@ -1,0 +1,115 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: url(../../images/dark-bg.jpeg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.container-heading{
+    margin-top: 10%;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-style:solid;
+    border-color: azure;
+    display: flex;
+    justify-content: center;
+    
+}
+
+   .t-geral{
+    opacity: 0;
+    font-size: 7rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1rem;
+    font-family: "Oswald", sans-serif;
+    
+   }     
+
+    
+    .t1{
+       position: absolute;
+       animation: entrance 16s 0s infinite;
+    }   
+    
+    .t2{
+       position: absolute;
+       animation: entrance 16s 4s infinite;   
+    }
+
+    .t3{
+       position: absolute;
+       animation: entrance 16s 8s infinite; 
+    }
+
+   .t4{
+       position: absolute;
+       animation: entrance 16s 12s infinite;
+    }
+
+    @keyframes entrance {
+      0% {
+         transform: translateZ(8rem);
+         opacity: 0;
+         letter-spacing: 3rem;
+       }
+     
+       3% {
+         transform: translateZ(0);
+         opacity: 1;
+         letter-spacing: 1.5rem;
+       }
+     
+       22% {
+         transform: translateZ(0);
+         opacity: 1;
+         letter-spacing: 1.5rem;
+       }
+     
+       25% {
+         transform: translateZ(8rem);
+         opacity: 0;
+         letter-spacing: 3rem;
+       }
+     
+       100% {
+         transform: translateZ(8rem);
+         opacity: 0;
+         letter-spacing: 3rem;
+      }
+    }
+
+    .p-banner {
+       background-color: black;
+       color:white;
+       font-size: 1rem;
+       margin: 1rem 1rem 2rem 1rem;
+       padding: 0 1rem;
+       opacity: 0.6;
+       letter-spacing: 1rem;
+
+    }
+
+    .button-banner{
+      height: 3rem;
+      width: 300px;
+      font-size: 0.7rem;
+      color: black;
+      background: linear-gradient(to right, #9b0e0e, #7a1010);
+      color: #fff;
+      font-size: 2rem;
+      border-radius: 3rem;
+      border: 0.1rem solid #800505;
+      text-shadow: 0.6rem 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+      animation: fadeAnimation 1s 2s forwards;
+    }

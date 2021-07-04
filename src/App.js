@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import HeadingQueMuda from './components/Heading-que-muda';
+import Banner from './components/Banner';
 
 function App() {
   return (
     <div className="App">
-      <HeadingQueMuda />
+      <Banner />
     </div>
   );
 }
