@@ -8,6 +8,7 @@
     justify-content: top;
     align-items: center;
     overflow: hidden;
+    z-index: 4;
     
 }
 
@@ -23,7 +24,8 @@
     
 }
 
-   .t-geral{
+.t-geral{
+    z-index: 10;
     opacity: 0;
     font-size: 16rem;
     font-weight: 300;
@@ -38,22 +40,22 @@
     
     .t1{
        position: absolute;
-       animation: entrance 16s 0s infinite;
+       animation: entrance 16s 4s infinite;
     }   
     
     .t2{
        position: absolute;
-       animation: entrance 16s 4s infinite;   
+       animation: entrance 16s 8s infinite;   
     }
 
     .t3{
        position: absolute;
-       animation: entrance 16s 8s infinite; 
+       animation: entrance 16s 12s infinite; 
     }
 
    .t4{
        position: absolute;
-       animation: entrance 16s 12s infinite;
+       animation: entrance 16s 16s infinite;
     }
 
     @keyframes entrance {
@@ -94,8 +96,8 @@
        font-size: 2rem;
        margin: 1rem 1rem 2rem 1rem;
        padding: 0 1rem;
-       opacity: 0.6;
        letter-spacing: 2rem;
+       z-index: 10;
 
     }
 
@@ -104,11 +106,11 @@
       width: 21rem;
       font-size: 1rem;
       color: black;
-      background: linear-gradient(to right, #9b0e0e, #7a1010);
+      background: linear-gradient(to right, #ff5f5f, #7a1010);
       color: #fff;
       font-size: 2rem;
       border-radius: 3rem;
-      border: 0.1rem solid #800505;
+      border: 0.1rem solid #e65555;
       text-shadow: 0.6rem 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
       cursor: pointer;
       animation: fadeAnimation 1s 2s forwards;

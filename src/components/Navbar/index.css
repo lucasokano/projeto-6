@@ -4,11 +4,11 @@
     height: 8rem;
     z-index: 0;
     position: fixed;
-    
+    display: flex;    
+    justify-items: space-between;
 }
 
 .logo {
-    display: inline-block;
     height: 8rem;
     padding: 15px;
 }
@@ -18,6 +18,45 @@
 }
 
 .nav-list{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    z-index: 15;
+}
+
+.hide {
     display: none;
+}
+
+.nav-item {
+    color: white;
+    font-size: 3rem;
+}
+
+.menu-toggle {
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem;
+    z-index: 8;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+
+}
+
+.menu-toggle i{
+    z-index: 9;
+    color: white;
     
 }
