@@ -7,12 +7,11 @@
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    overflow: hidden;
-    z-index: 4;
+    overflow: hidden; 
     
 }
 
-.container-heading{
+.container-heading {
     margin-top: 10%;
     position: relative;
     width: 100%;
@@ -21,11 +20,9 @@
     border-color: azure;
     display: flex;
     justify-content: center;
-    
 }
 
 .t-geral{
-    z-index: 10;
     opacity: 0;
     font-size: 16rem;
     font-weight: 300;
@@ -97,8 +94,6 @@
        margin: 1rem 1rem 2rem 1rem;
        padding: 0 1rem;
        letter-spacing: 2rem;
-       z-index: 10;
-
     }
 
     .button-banner{

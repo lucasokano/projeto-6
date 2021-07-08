@@ -22,11 +22,12 @@
     height: 100vh;
     position: absolute;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     background-color: black;
-    z-index: 15;
+    z-index: 10;
 }
 
 .hide {
@@ -37,13 +38,15 @@
     color: white;
     font-size: 3rem;
 }
+.nav-item:hover{
+    color:#ff5f5f;
+}
 
 .menu-toggle {
     font-size: 2rem;
     width: 4rem;
     height: 4rem;
     margin: 2rem;
-    z-index: 8;
     background-color: black;
     position: fixed;
     top: 0;
@@ -51,12 +54,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 1;
+    z-index: 12;
+    
 
 }
 
 .menu-toggle i{
-    z-index: 9;
+    z-index: 13;
     color: white;
     
 }
