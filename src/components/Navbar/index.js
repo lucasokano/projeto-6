@@ -4,10 +4,9 @@ import './index.css'
 const Navbar = () =>{
     
     const [checked, setChecked] = useState('')
-    const style = checked ? 'nav-list' : 'nav-list hide'
+    const style = checked ? 'nav-list' : 'nav-list hide' 
 
     return(
-
         <nav className="navbar">
             <div className="logo">
                 <a>
@@ -26,12 +25,7 @@ const Navbar = () =>{
             <button className="menu-toggle" onClick={()=>setChecked(!checked)}>
                 <i className="fas fa-bars "></i>
             </button>
-
-
         </nav>
-
-
-
     )
 }
 
